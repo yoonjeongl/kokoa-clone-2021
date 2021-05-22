@@ -23,9 +23,17 @@
 body {
   padding-top: 5px;
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gill Sans", sans-serif;
 }
 
+.bakground {
+  background-image: url("https://wallpapercave.com/wp/wp5186872.jpg");
+  background-size: 100%;
+}
+.bakgroundIndex {
+  background-color: #abc1d1;
+  opacity: 0.8;
+}
 .main-screen {
   padding: 0px var(--horizontal-space);
 }

@@ -3,5 +3,5 @@
   --horizontal-space: 25px;
   --gray-color: rgba(0, 0, 0, 0.3);
   --gray-dark-color: rgba(0, 0, 0, 0.5);
-  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --main-border: 1px solid rgb(255, 255, 255);
 }

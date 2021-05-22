@@ -26,10 +26,10 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: var(--gray-dark-color);
+  color: wheat;
 }
 
-@keyframes hideSplashScreen {
+@keyframes hideSplash {
   from {
     opacity: 1;
   }
@@ -48,6 +48,22 @@
   justify-content: center;
   align-items: center;
   font-size: 132px;
-  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation: hideSplash 0.5s ease-in-out forwards;
+  animation-delay: 3s;
+}
+
+@keyframes rotateLogo {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+#splash-screen i {
+  animation: rotateLogo 1s ease-in-out forwards;
   animation-delay: 2s;
 }
