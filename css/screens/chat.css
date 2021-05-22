@@ -22,7 +22,7 @@
 
 @keyframes fadeIn {
   from {
-    transform: translateY(30px);
+    transform: translateY(-30px);
     opacity: 0;
   }
   to {
@@ -32,7 +32,7 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,7 @@
 }
 
 .message-row__own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--green);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -149,7 +149,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--green);
   border: none;
   width: 30px;
   height: 30px;
