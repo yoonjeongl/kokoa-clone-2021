@@ -51,18 +51,6 @@
   animation-delay: 3s;
 }
 
-@keyframes rotateLogo {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: translateY(-5px) rotateY(180deg);
-  }
-  100% {
-    transform: none;
-  }
-}
-
 @-webkit-keyframes slide-bck-bottom {
   0% {
     -webkit-transform: translateZ(0) translateY(-600px);
