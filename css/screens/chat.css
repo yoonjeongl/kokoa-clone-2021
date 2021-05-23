@@ -71,6 +71,16 @@
   animation: fadeInTop 0.3s linear;
 }
 
+.chat__unknownsender {
+  color: white;
+  opacity: 0.8;
+  padding: 15px;
+  font-size: 16px;
+  background-color: hotpink;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  animation: fadeInTop 0.3s linear;
+}
 .message-row {
   width: 100%;
   display: flex;
