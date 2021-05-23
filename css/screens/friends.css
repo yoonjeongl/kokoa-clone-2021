@@ -60,8 +60,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateZ(-400px) translateY(400px);
-    transform: translateZ(-400px) translateY(400px);
+    -webkit-transform: translateZ(-400px) translateY(200px);
+    transform: translateZ(-400px) translateY(200px);
   }
 }
 @keyframes slide-bck-bottom {
@@ -71,8 +71,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateZ(-400px) translateY(400px);
-    transform: translateZ(-400px) translateY(400px);
+    -webkit-transform: translateZ(-400px) translateY(200px);
+    transform: translateZ(-400px) translateY(200px);
   }
 }
 
