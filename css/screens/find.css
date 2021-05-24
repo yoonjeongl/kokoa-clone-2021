@@ -1,6 +1,6 @@
 .recommended-friends {
-  margin: 25px 0px;
-  padding: 25px 0px;
+  margin: 15px 0px;
+  padding: 20px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
@@ -27,12 +27,13 @@
   border-radius: 5px;
   padding: 10px;
   opacity: 0.8;
+  margin-bottom: 50px;
 }
 .open-chat__header {
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .open-chat__header span {
