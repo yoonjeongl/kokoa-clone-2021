@@ -7,7 +7,9 @@
 
 .recommended-friends__title {
   font-size: 14px;
-  background-color: wheat;
+  padding: 3px;
+  background-color: white;
+  padding-left: 10px;
   opacity: 0.8;
   color: var(--gray-font-color);
 }
@@ -16,12 +18,14 @@
   margin: 100px 0px;
   display: block;
   font-size: 18px;
-  color: wheat;
+  color: white;
   text-align: center;
 }
 
 .open-chat {
-  background-color: wheat;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
   opacity: 0.8;
 }
 .open-chat__header {
