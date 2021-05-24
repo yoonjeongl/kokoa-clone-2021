@@ -56,13 +56,13 @@
 
 @-webkit-keyframes slide-bck-bottom {
   0% {
-    -webkit-transform: translateZ(0) translateY(-600px);
-    transform: translateZ(0) translateY(-600px);
+    -webkit-transform: translateZ(0) translateY(0px);
+    transform: translateZ(0) translateY(0px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateZ(-400px) translateY(200px);
-    transform: translateZ(-400px) translateY(200px);
+    -webkit-transform: translateZ(-400px) translateY(300px);
+    transform: translateZ(-400px) translateY(300px);
   }
 }
 @keyframes slide-bck-bottom {
@@ -72,8 +72,8 @@
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateZ(-400px) translateY(200px);
-    transform: translateZ(-400px) translateY(200px);
+    -webkit-transform: translateZ(-400px) translateY(300px);
+    transform: translateZ(-400px) translateY(300px);
   }
 }
 
