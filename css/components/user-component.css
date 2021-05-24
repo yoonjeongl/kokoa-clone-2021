@@ -4,6 +4,7 @@
   background-color: white;
   border-radius: 10px;
   opacity: 0.8;
+  padding: 8px;
 }
 
 .user-component,
@@ -13,8 +14,8 @@
 }
 
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   border-radius: 27px;
   margin-right: 20px;
 }
@@ -30,15 +31,15 @@
 }
 
 .user-component__avatar--xl {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   border-radius: 27px;
   margin-right: 20px;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border-radius: 25px;
   margin-right: 20px;
 }
