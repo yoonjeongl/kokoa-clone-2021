@@ -51,6 +51,7 @@
   font-size: 132px;
   animation: hideSplash 0.5s ease-in-out forwards;
   animation-delay: 3s;
+  z-index: 2;
 }
 
 @-webkit-keyframes slide-bck-bottom {
